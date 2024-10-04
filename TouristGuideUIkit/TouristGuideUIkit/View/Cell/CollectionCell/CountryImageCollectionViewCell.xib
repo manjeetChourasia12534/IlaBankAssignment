@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CountryImageCollectionViewCell" customModule="TestAppUikit" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="265" height="100"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="265" height="100"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bjl-DC-yhl">
+                        <rect key="frame" x="10" y="0.0" width="245" height="100"/>
+                    </imageView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="bjl-DC-yhl" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="1pd-sS-MRp"/>
+                <constraint firstItem="bjl-DC-yhl" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="I3L-bO-dQb"/>
+                <constraint firstAttribute="trailing" secondItem="bjl-DC-yhl" secondAttribute="trailing" constant="10" id="V75-Oq-iXI"/>
+                <constraint firstAttribute="bottom" secondItem="bjl-DC-yhl" secondAttribute="bottom" id="cL2-ya-PJy"/>
+            </constraints>
+            <size key="customSize" width="265" height="100"/>
+            <connections>
+                <outlet property="countryFlagImage" destination="bjl-DC-yhl" id="gmK-xe-PZP"/>
+            </connections>
+            <point key="canvasLocation" x="300" y="2.1126760563380285"/>
+        </collectionViewCell>
+    </objects>
+</document>

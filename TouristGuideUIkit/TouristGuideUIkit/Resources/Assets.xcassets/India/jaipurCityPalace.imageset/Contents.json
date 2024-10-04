@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "jaipurCityPalace.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
