@@ -1,0 +1,370 @@
+{
+  "countries": [
+      {
+        "country": "India",
+        "image": "india",
+        "tourist_spots": [
+          {
+            "name": "Taj Mahal",
+            "location": "Agra",
+            "description": "A magnificent white marble mausoleum built by Mughal Emperor Shah Jahan in memory of his wife Mumtaz Mahal.",
+            "image": "tajMahal"
+          },
+          {
+            "name": "Jaipur City Palace",
+            "location": "Jaipur",
+            "description": "A royal residence known for its stunning architecture, including courtyards, gardens, and museums.",
+            "image": "jaipurCityPalace"
+          },
+          {
+            "name": "Qutub Minar",
+            "location": "Delhi",
+            "description": "A UNESCO World Heritage site, this 73-meter tall minaret is an example of early Indo-Islamic architecture.",
+            "image": "qutubMinar"
+          },
+          {
+            "name": "Gateway of India",
+            "location": "Mumbai",
+            "description": "An iconic monument built during the British Raj, located on the waterfront in Mumbai.",
+            "image": "gatewayOfIndia"
+          },
+          {
+            "name": "Red Fort",
+            "location": "Delhi",
+            "description": "A historic fortification and a symbol of India's rich heritage, built by Mughal Emperor Shah Jahan.",
+            "image": "redFort"
+          },
+          {
+            "name": "Hampi",
+            "location": "Karnataka",
+            "description": "A UNESCO World Heritage site known for its ancient temples, ruins, and stunning landscapes.",
+            "image": "hampi"
+          }
+        ]
+      },
+      {
+        "country": "Australia",
+        "image": "australia",
+        "tourist_spots": [
+          {
+            "name": "Sydney Opera House",
+            "location": "Sydney",
+            "description": "An iconic performing arts center known for its unique architecture and cultural significance.",
+            "image": "sydneyOperaHouse"
+          },
+          {
+            "name": "Great Barrier Reef",
+            "location": "Queensland",
+            "description": "The world's largest coral reef system, renowned for its marine biodiversity.",
+            "image": "greatBarrierReef"
+          },
+          {
+            "name": "Uluru",
+            "location": "Northern Territory",
+            "description": "A massive sandstone monolith, sacred to Indigenous Australians and famous for its changing colors.",
+            "image": "uluru"
+          },
+          {
+            "name": "Bondi Beach",
+            "location": "Sydney",
+            "description": "A famous beach known for its surfing and vibrant coastal atmosphere.",
+            "image": "bondiBeach"
+          },
+          {
+            "name": "Great Ocean Road",
+            "location": "Victoria",
+            "description": "A scenic coastal drive known for its stunning views and the Twelve Apostles rock formations.",
+            "image": "greatOceanRoad"
+          },
+          {
+            "name": "Kakadu National Park",
+            "location": "Northern Territory",
+            "description": "A UNESCO World Heritage site known for its diverse ecosystems and Aboriginal rock art.",
+            "image": "kakaduPark"
+          },
+          {
+            "name": "Tasmania's Wilderness",
+            "location": "Tasmania",
+            "description": "An area known for its pristine natural landscapes and unique wildlife.",
+            "image": "tasmaniaWilderness"
+          },
+          {
+            "name": "Melbourne's Laneways",
+            "location": "Melbourne",
+            "description": "A network of alleyways famous for their street art, cafes, and boutique shops.",
+            "image": "melbourneLaneways"
+          }
+        ]
+      },
+    {
+      "country": "France",
+      "image": "france",
+      "tourist_spots": [
+        {
+          "name": "Eiffel Tower",
+          "location": "Paris",
+          "description": "A wrought-iron lattice tower built by Gustave Eiffel for the 1889 Exposition Universelle.",
+          "image": "eiffelTower"
+        },
+        {
+          "name": "Louvre Museum",
+          "location": "Paris",
+          "description": "The world's largest art museum and a historic monument in Paris, France.",
+          "image": "louvreMuseum"
+        },
+        {
+          "name": "Versailles Palace",
+          "location": "Versailles",
+          "description": "A royal château known for its opulent architecture and gardens.",
+          "image": "versaillesPalace"
+        },
+        {
+          "name": "Notre-Dame Cathedral",
+          "location": "Paris",
+          "description": "A medieval Catholic cathedral known for its Gothic architecture and history.",
+          "image": "notreDameCathedral"
+        },
+        {
+          "name": "Mont Saint-Michel",
+          "location": "Normandy",
+          "description": "A small rocky island with a stunning abbey, known for its unique tides.",
+          "image": "montSaintMichel"
+        },
+        {
+          "name": "Sainte-Chapelle",
+          "location": "Paris",
+          "description": "A Gothic chapel known for its magnificent stained glass windows.",
+          "image": "sainteChapelle"
+        },
+        {
+          "name": "Panthéon",
+          "location": "Paris",
+          "description": "A mausoleum and former church housing the remains of notable French figures.",
+          "image": "panthéon"
+        },
+        {
+          "name": "Luxembourg Gardens",
+          "location": "Paris",
+          "description": "A beautiful garden and park known for its French formal garden design.",
+          "image": "luxembourgGardens"
+        }
+      ]
+    },
+    {
+      "country": "Italy",
+      "image": "italy",
+      "tourist_spots": [
+        {
+          "name": "Colosseum",
+          "location": "Rome",
+          "description": "An ancient amphitheater known for its gladiatorial contests and public spectacles.",
+          "image": "colosseum"
+        },
+        {
+          "name": "Vatican City",
+          "location": "Rome",
+          "description": "The independent city-state home to the Pope and famous landmarks like St. Peter's Basilica.",
+          "image": "vaticanCity"
+        },
+        {
+          "name": "Leaning Tower of Pisa",
+          "location": "Pisa",
+          "description": "A freestanding bell tower known for its unintended tilt.",
+          "image": "leaningTowerOfPisa"
+        },
+        {
+          "name": "Trevi Fountain",
+          "location": "Rome",
+          "description": "A Baroque fountain known for its stunning sculptures and tradition of coin throwing.",
+          "image": "treviFountain"
+        },
+        {
+          "name": "Florence Cathedral",
+          "location": "Florence",
+          "description": "A Renaissance cathedral with a striking dome designed by Brunelleschi.",
+          "image": "florenceCathedral"
+        },
+        {
+          "name": "Cinque Terre",
+          "location": "Liguria",
+          "description": "A picturesque coastal region known for its colorful villages and dramatic landscapes.",
+          "image": "cinqueTerre"
+        },
+        {
+          "name": "Pompeii",
+          "location": "Naples",
+          "description": "An ancient Roman city preserved by the eruption of Mount Vesuvius.",
+          "image": "Pompeii"
+        },
+        {
+          "name": "Siena's Piazza del Campo",
+          "location": "Siena",
+          "description": "A famous medieval square known for its shell shape and annual horse race.",
+          "image": "SienaPiazzadelCampo"
+        }
+      ]
+    },
+    {
+      "country": "United States",
+      "image": "unitedStates",
+      "tourist_spots": [
+        {
+          "name": "Statue of Liberty",
+          "location": "New York City",
+          "description": "A symbol of freedom and democracy, located on Liberty Island.",
+          "image": "statueOfLiberty"
+        },
+        {
+          "name": "Grand Canyon",
+          "location": "Arizona",
+          "description": "A vast and impressive canyon known for its stunning natural beauty and geological significance.",
+          "image": "grandCanyon"
+        },
+        {
+          "name": "Yellowstone National Park",
+          "location": "Wyoming",
+          "description": "The first national park in the world, known for its geothermal features and diverse wildlife.",
+          "image": "yellowstonePark"
+        },
+        {
+          "name": "Niagara Falls",
+          "location": "New York",
+          "description": "A set of massive waterfalls known for their breathtaking views and power.",
+          "image": "niagaraFalls"
+        },
+        {
+          "name": "Yosemite National Park",
+          "location": "California",
+          "description": "A park famous for its stunning granite cliffs, waterfalls, and giant sequoias.",
+          "image": "yosemitePark"
+        },
+        {
+          "name": "Golden Gate Bridge",
+          "location": "San Francisco",
+          "description": "An iconic suspension bridge known for its striking orange color and panoramic views.",
+          "image": "goldenGateBridge"
+        },
+        {
+          "name": "Las Vegas Strip",
+          "location": "Las Vegas",
+          "description": "A famous stretch of Las Vegas Boulevard known for its casinos and entertainment.",
+          "image": "lasVegasStrip"
+        },
+        {
+          "name": "Miami Beach",
+          "location": "Florida",
+          "description": "A popular destination known for its beautiful beaches and vibrant nightlife.",
+          "image": "miamiBeach"
+        }
+      ]
+    },
+    {
+      "country": "Brazil",
+      "image": "brazil",
+      "tourist_spots": [
+        {
+          "name": "Christ the Redeemer",
+          "location": "Rio de Janeiro",
+          "description": "A large statue of Jesus Christ overlooking the city, known for its iconic design and panoramic views.",
+          "image": "christTheRedeemer"
+        },
+        {
+          "name": "Sugarloaf Mountain",
+          "location": "Rio de Janeiro",
+          "description": "A peak with a cable car offering spectacular views of the city and bay.",
+          "image": "sugarloafMountain"
+        },
+        {
+          "name": "Iguazu Falls",
+          "location": "Paraná",
+          "description": "A massive waterfall system on the border with Argentina, known for its breathtaking size and power.",
+          "image": "iguazuFalls"
+        },
+        {
+          "name": "Amazon Rainforest",
+          "location": "Amazon",
+          "description": "The largest tropical rainforest in the world, known for its incredible biodiversity.",
+          "image": "amazonRainforest"
+        },
+        {
+          "name": "Pantanal",
+          "location": "Mato Grosso do Sul",
+          "description": "The world's largest tropical wetland, renowned for its wildlife and birdwatching.",
+          "image": "pantanal"
+        },
+        {
+          "name": "Copacabana Beach",
+          "location": "Rio de Janeiro",
+          "description": "A famous beach known for its lively atmosphere and scenic beauty.",
+          "image": "copacabanaBeach"
+        },
+        {
+          "name": "Salvador's Pelourinho",
+          "location": "Salvador",
+          "description": "A historic district known for its colorful colonial buildings and Afro-Brazilian culture.",
+          "image": "pelourinho"
+        },
+        {
+          "name": "Ouro Preto",
+          "location": "Minas Gerais",
+          "description": "A historic town known for its well-preserved colonial architecture and mining history.",
+          "image": "ouroPreto"
+        }
+      ]
+    },
+    {
+      "country": "Japan",
+      "image": "japan",
+      "tourist_spots": [
+        {
+          "name": "Mount Fuji",
+          "location": "Honshu",
+          "description": "Japan's highest peak, known for its iconic, symmetrical volcanic cone.",
+          "image": "mountFuji"
+        },
+        {
+          "name": "Tokyo Disneyland",
+          "location": "Urayasu",
+          "description": "A popular theme park with attractions based on Disney characters and stories.",
+          "image": "tokyoDisneyland"
+        },
+        {
+          "name": "Fushimi Inari Shrine",
+          "location": "Kyoto",
+          "description": "Famous for its thousands of vermilion torii gates leading up to the shrine's mountaintop.",
+          "image": "fushimiInariShrine"
+        },
+        {
+          "name": "Kyoto's Golden Pavilion",
+          "location": "Kyoto",
+          "description": "A stunning Zen Buddhist temple covered in gold leaf and set in beautiful gardens.",
+          "image": "KyotoGoldenPavilion"
+        },
+        {
+          "name": "Hiroshima Peace Memorial Park",
+          "location": "Hiroshima",
+          "description": "A memorial park dedicated to the victims of the atomic bomb in 1945.",
+          "image": "hiroshimaPark"
+        },
+        {
+          "name": "Shibuya Crossing",
+          "location": "Tokyo",
+          "description": "One of the world's busiest pedestrian crossings and a vibrant area of Tokyo.",
+          "image": "shibuyaCrossing"
+        },
+        {
+          "name": "Nara Park",
+          "location": "Nara",
+          "description": "A large park known for its free-roaming deer and historic temples.",
+          "image": "naraPark"
+        },
+        {
+          "name": "Odaiba",
+          "location": "Tokyo",
+          "description": "A futuristic entertainment and shopping district on a man-made island in Tokyo Bay.",
+          "image": "odaiba"
+        }
+      ]
+    }
+  ]
+}
